@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 215 25% 16%;
+    --foreground: 210 20% 92%;
+
+    --card: 215 22% 20%;
+    --card-foreground: 210 20% 92%;
+
+    --popover: 215 22% 20%;
+    --popover-foreground: 210 20% 92%;
+
+    --primary: 145 70% 45%;
+    --primary-foreground: 215 25% 10%;
+
+    --secondary: 215 20% 26%;
+    --secondary-foreground: 210 20% 88%;
+
+    --muted: 215 18% 24%;
+    --muted-foreground: 210 12% 58%;
+
+    --accent: 35 90% 55%;
+    --accent-foreground: 215 25% 10%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 18% 28%;
+    --input: 215 18% 28%;
+    --ring: 145 70% 45%;
+
+    --radius: 0.75rem;
+
+    --font-display: 'Orbitron', sans-serif;
+    --font-body: 'Rajdhani', sans-serif;
+
+    --glow-primary: 0 0 20px hsl(145 70% 45% / 0.3);
+    --glow-accent: 0 0 20px hsl(35 90% 55% / 0.3);
+
+    --sidebar-background: 220 18% 11%;
+    --sidebar-foreground: 210 20% 92%;
+    --sidebar-primary: 145 70% 45%;
+    --sidebar-primary-foreground: 220 20% 7%;
+    --sidebar-accent: 220 15% 18%;
+    --sidebar-accent-foreground: 210 20% 92%;
+    --sidebar-border: 220 15% 18%;
+    --sidebar-ring: 145 70% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .glow-primary {
+    box-shadow: var(--glow-primary);
+  }
+  .glow-accent {
+    box-shadow: var(--glow-accent);
+  }
+  .text-glow {
+    text-shadow: 0 0 10px hsl(145 70% 45% / 0.5);
+  }
+}

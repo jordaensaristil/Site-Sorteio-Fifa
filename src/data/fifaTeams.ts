@@ -1,0 +1,72 @@
+export const fifaTeams = [
+  // 5 estrelas - Bom
+  { name: "Real Madrid", league: "La Liga", rating: 5, type: "club" as const, tier: "bom" as const },
+  { name: "Manchester City", league: "Premier League", rating: 5, type: "club" as const, tier: "bom" as const },
+  { name: "Barcelona", league: "La Liga", rating: 5, type: "club" as const, tier: "bom" as const },
+  { name: "Bayern Munich", league: "Bundesliga", rating: 5, type: "club" as const, tier: "bom" as const },
+  { name: "PSG", league: "Ligue 1", rating: 5, type: "club" as const, tier: "bom" as const },
+  { name: "Liverpool", league: "Premier League", rating: 5, type: "club" as const, tier: "bom" as const },
+  // 4.5 estrelas - Bom
+  { name: "Arsenal", league: "Premier League", rating: 4.5, type: "club" as const, tier: "bom" as const },
+  { name: "Inter Milan", league: "Serie A", rating: 4.5, type: "club" as const, tier: "bom" as const },
+  { name: "AC Milan", league: "Serie A", rating: 4.5, type: "club" as const, tier: "bom" as const },
+  { name: "Juventus", league: "Serie A", rating: 4.5, type: "club" as const, tier: "bom" as const },
+  { name: "Atlético Madrid", league: "La Liga", rating: 4.5, type: "club" as const, tier: "bom" as const },
+  { name: "Chelsea", league: "Premier League", rating: 4.5, type: "club" as const, tier: "bom" as const },
+  { name: "Napoli", league: "Serie A", rating: 4.5, type: "club" as const, tier: "bom" as const },
+  { name: "Borussia Dortmund", league: "Bundesliga", rating: 4.5, type: "club" as const, tier: "bom" as const },
+  { name: "Tottenham", league: "Premier League", rating: 4.5, type: "club" as const, tier: "bom" as const },
+  { name: "Manchester United", league: "Premier League", rating: 4.5, type: "club" as const, tier: "bom" as const },
+  // 4 estrelas - Médio
+  { name: "Benfica", league: "Liga Portugal", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "Porto", league: "Liga Portugal", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "Roma", league: "Serie A", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "Lazio", league: "Serie A", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "Aston Villa", league: "Premier League", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "Newcastle", league: "Premier League", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "Real Sociedad", league: "La Liga", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "Villarreal", league: "La Liga", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "RB Leipzig", league: "Bundesliga", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "Bayer Leverkusen", league: "Bundesliga", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "Ajax", league: "Eredivisie", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "Sporting CP", league: "Liga Portugal", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "Marseille", league: "Ligue 1", rating: 4, type: "club" as const, tier: "medio" as const },
+  { name: "Lyon", league: "Ligue 1", rating: 4, type: "club" as const, tier: "medio" as const },
+  // 3.5 - 3 estrelas - Ruim
+  { name: "Wolves", league: "Premier League", rating: 3.5, type: "club" as const, tier: "ruim" as const },
+  { name: "West Ham", league: "Premier League", rating: 3.5, type: "club" as const, tier: "ruim" as const },
+  { name: "Brighton", league: "Premier League", rating: 3.5, type: "club" as const, tier: "ruim" as const },
+  { name: "Crystal Palace", league: "Premier League", rating: 3.5, type: "club" as const, tier: "ruim" as const },
+  { name: "Sevilla", league: "La Liga", rating: 3.5, type: "club" as const, tier: "ruim" as const },
+  { name: "Real Betis", league: "La Liga", rating: 3.5, type: "club" as const, tier: "ruim" as const },
+  { name: "Fiorentina", league: "Serie A", rating: 3.5, type: "club" as const, tier: "ruim" as const },
+  { name: "Atalanta", league: "Serie A", rating: 3.5, type: "club" as const, tier: "ruim" as const },
+  { name: "Wolfsburg", league: "Bundesliga", rating: 3.5, type: "club" as const, tier: "ruim" as const },
+  { name: "Freiburg", league: "Bundesliga", rating: 3.5, type: "club" as const, tier: "ruim" as const },
+  // Seleções - Bom
+  { name: "Brasil", league: "Seleção", rating: 5, type: "selecao" as const, tier: "bom" as const },
+  { name: "Argentina", league: "Seleção", rating: 5, type: "selecao" as const, tier: "bom" as const },
+  { name: "França", league: "Seleção", rating: 5, type: "selecao" as const, tier: "bom" as const },
+  { name: "Espanha", league: "Seleção", rating: 4.5, type: "selecao" as const, tier: "bom" as const },
+  { name: "Alemanha", league: "Seleção", rating: 4.5, type: "selecao" as const, tier: "bom" as const },
+  { name: "Inglaterra", league: "Seleção", rating: 4.5, type: "selecao" as const, tier: "bom" as const },
+  { name: "Portugal", league: "Seleção", rating: 4.5, type: "selecao" as const, tier: "bom" as const },
+  { name: "Itália", league: "Seleção", rating: 4.5, type: "selecao" as const, tier: "bom" as const },
+  { name: "Holanda", league: "Seleção", rating: 4.5, type: "selecao" as const, tier: "bom" as const },
+  // Seleções - Médio
+  { name: "Bélgica", league: "Seleção", rating: 4, type: "selecao" as const, tier: "medio" as const },
+  { name: "Croácia", league: "Seleção", rating: 4, type: "selecao" as const, tier: "medio" as const },
+  { name: "Uruguai", league: "Seleção", rating: 4, type: "selecao" as const, tier: "medio" as const },
+  { name: "Colômbia", league: "Seleção", rating: 4, type: "selecao" as const, tier: "medio" as const },
+  { name: "México", league: "Seleção", rating: 4, type: "selecao" as const, tier: "medio" as const },
+  { name: "EUA", league: "Seleção", rating: 4, type: "selecao" as const, tier: "medio" as const },
+  // Seleções - Ruim
+  { name: "Japão", league: "Seleção", rating: 3.5, type: "selecao" as const, tier: "ruim" as const },
+  { name: "Coreia do Sul", league: "Seleção", rating: 3.5, type: "selecao" as const, tier: "ruim" as const },
+  { name: "Austrália", league: "Seleção", rating: 3.5, type: "selecao" as const, tier: "ruim" as const },
+  { name: "Polônia", league: "Seleção", rating: 3.5, type: "selecao" as const, tier: "ruim" as const },
+];
+
+export type FifaTeam = (typeof fifaTeams)[number];
+export type TeamType = "club" | "selecao";
+export type TeamTier = "bom" | "medio" | "ruim";
